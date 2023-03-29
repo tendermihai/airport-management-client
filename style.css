@@ -13,3 +13,20 @@ h1 {
   margin-bottom: 100px;
   margin-top: 20px;
 }
+
+/* responsive for tablet */
+@media screen and (max-width: 800px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* responsive for mobile */
+
+@media screen and (max-width: 400px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

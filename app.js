@@ -5,6 +5,8 @@ async function getAirports() {
   attachCards(conv);
 }
 
+getAirports();
+
 function createCard(airport) {
   let section = document.createElement("section");
 
