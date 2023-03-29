@@ -1,0 +1,15 @@
+body {
+  background-color: antiquewhite;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 50px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+}
