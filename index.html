@@ -14,6 +14,17 @@
 <body>
 
     <h1>Airport Management</h1>
+
+    <select name="sort" class="sort">
+        <option value="">--Sort By--</option>
+        <option value="name">Sort by name</option>
+        <option value="code">Sort by code</option>
+        <option value="municipality">Sort by municipality</option>
+        <option value="elevation">Sort by elevation</option>
+    </select>
+
+    <button onclick="location.href='newairport.html'" class="addBtn">Add a new Airport</button>
+
     <div class="container">
         <div class="card mb-3" style="max-width: 540px;">
             <div class="row g-0">
@@ -32,7 +43,8 @@
         </div>
     </div>
 
-
+    <script src="api.js"></script>
+    <script src="functions.js"></script>
     <script src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
